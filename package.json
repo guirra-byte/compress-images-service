@@ -1,0 +1,21 @@
+{
+  "name": "convert_images_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gifsicle": "^5.2.1",
+    "nodemon": "^2.0.15",
+    "pngquant-bin": "^6.0.1",
+    "sharp": "^0.29.3"
+  },
+  "devDependencies": {
+    "compress-images": "^2.0.4"
+  }
+}
